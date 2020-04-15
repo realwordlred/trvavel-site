@@ -3,6 +3,10 @@ import "lazysizes"
 import MobileMenu from "./modules/mobilemenu"
 import RevealOnScroll from "./modules/revealonscroll"
 import StickyHeader from "./modules/stickyheader"
+import ClientArea from "./modules/clientarea"
+
+
+new ClientArea()
 
 let mobileMenu= new MobileMenu();
 
