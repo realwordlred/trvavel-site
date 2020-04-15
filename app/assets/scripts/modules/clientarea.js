@@ -30,7 +30,7 @@ class ClientArea {
 	}
 	
 	sendRequest() {
-		axios.post().then(response => {
+		axios.post("https://gracious-boyd-7d3a60.netlify.com/.netlify/functions/secret-area", { password: this.field.value}).then(response => {
 			this.form.remove()
 			this.contentArea.innerHTML = response.data
 		
