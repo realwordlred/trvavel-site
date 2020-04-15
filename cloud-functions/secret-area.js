@@ -12,13 +12,30 @@ exports.handler = function(event, context, callback){
 		
 	}
 	
-	
-	
-	callback( null, {
+	if(body.password == "Admin123") {
+		
+		
+		callback( null, {
 		statusCode: 200,
 		body:"welcome to the super secret area"
 		
 		
 	})
+		
+	} else {
+		callback( null, {
+		statusCode: 401
+		
+		
+		
+	})
+		
+		
+		
+	}
+	
+	
+	
+	
 	
 }
