@@ -5,6 +5,10 @@ import RevealOnScroll from "./modules/revealonscroll"
 import StickyHeader from "./modules/stickyheader"
 import ClientArea from "./modules/clientarea"
 
+//react code goes here
+import React from 'react'
+import ReactDom from 'react-dom'
+
 
 new ClientArea()
 
